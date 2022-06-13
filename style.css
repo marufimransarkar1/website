@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    display: flex;
+    background: darkgray;
+}
+
+.logo a{
+    height: 40px;
+    line-height: 40px;
+    padding-top: 20px;
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo span {
+    color: chartreuse;
+}
+
+.copyright {
+    height: 50px;
+    border-top: 1px #ccc dotted;
+    line-height: 50px;
+    text-align: center;
+    font: bold;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}   
+
+.wrap .menu
+{
+    display: inline-flex;
+    padding-right: 10px;
+}
+.wrap .menu a
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.home .firstbox {
+    background-color: whitesmoke;
+    background-image: url(maruf.jpg);
+}
+
+.home .firstbox b{
+    color: #000;
+    background-color: white;
+    
+}
